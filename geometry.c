@@ -27,7 +27,7 @@ double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const co
 
 double coord_2d_dist(const coord_2d_t* a, const coord_2d_t* b){
 
-    /* Input Checks */
+    /* Input Checks*/
     if(!a){
         DEBUG(__FILE__, __LINE__, __func__, "'a' must not be NULL");
         return NAN;

@@ -1,4 +1,6 @@
 language: c
-script: 
- - make clean
- - make
+install: make dep
+sudo: required
+compiler: gcc
+script: make clean && make && make test
+
