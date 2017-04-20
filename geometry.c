@@ -37,7 +37,7 @@ double coord_2d_dist(const coord_2d_t* a, const coord_2d_t* b){
         return NAN;
     }
 
-    /* Maths */
+    /* Maths*/
     return sqrt(pow((a->x - b->x), 2) + pow((a->y - b->y), 2));
 
 }
